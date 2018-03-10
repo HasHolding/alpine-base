@@ -7,5 +7,3 @@ RUN apk add --update --no-cache ca-certificates tzdata && \
     cp /usr/share/zoneinfo/Europe/Istanbul /etc/localtime && \
     echo "Europe/Istanbul" >  /etc/timezone && \
     apk del tzdata
-
-VOLUME /opt
